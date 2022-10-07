@@ -34,7 +34,7 @@ if res["cod"] != "404":
     print(
         f"Wind speed is {res['wind']['speed']} moving in the Degrees of {res['wind']['deg']}")
     print(
-        f"Temperature in C : {tem_c} \n Humidity in %: {humidity} \n  Atmospheric pressure (in hPa unit): {pressure}\n")
+        f"Temperature in C : {tem_c:.1f} \n Humidity in %: {humidity} \n  Atmospheric pressure (in hPa unit): {pressure}\n")
 
     print(
         f"In short the Weather is {res['weather'][0]['main']} \n basically {res['weather'][0]['description']}")
