@@ -3,6 +3,7 @@ import json
 from decouple import config
 
 # calls in an api key that is generated from open weather platfrom
+# make sure you sign up for an api key if you dont have any
 secret_key = config('api')
 
 # the open weather url
